@@ -6,5 +6,4 @@ views:
         - file.folder == "角色库"
     order:
       - file.name
-      - 雕偶师
       - MBTI

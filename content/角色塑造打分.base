@@ -1,0 +1,22 @@
+formulas:
+  总分: proper
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "角色库"
+    order:
+      - file.name
+      - 动机
+      - 主动性
+      - 复杂度
+      - 发展
+      - 辨识度
+      - 关系张力
+      - 主题贡献
+      - formula.总分
+    sort: []
+    columnSize:
+      file.name: 85
+      note.关系张力: 85
