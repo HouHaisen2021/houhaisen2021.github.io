@@ -1,7 +1,14 @@
 ---
-title: Welcome to Quartz
+title: 🛖主页
 ---
+这是一间存放金光布袋戏相关内容的仓库。它以Obsidian为，
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+博主网名暂定“侯海森”，谐音粤语“好开心”。
+
+补充网络上百科没有写的内容。
+锐评
+以后可能会整理发布贴膜文章。
+
+自认为比黄立纲更懂三弦，比三弦更懂黄立纲，比銧粉更懂金光的好，比銧黑更懂金光的烂。一言以蔽之——Nobody Knows Kimkong Better Than Me! 👐
+
 

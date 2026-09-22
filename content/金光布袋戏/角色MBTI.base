@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "角色库"
+        - "!MBTI.isEmpty()"
+    groupBy:
+      property: MBTI
+      direction: ASC
+    order:
+      - file.name
+      - file.basename
+      - MBTI
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.MBTI: 94

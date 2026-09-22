@@ -1,0 +1,22 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "角色库"
+    order:
+      - file.name
+      - file.basename
+      - 九龙变
+      - 剑影魔踪
+      - 魔戮血战
+      - 墨武侠锋
+      - 墨世佛劫
+      - 墨邪录
+      - 东皇战影
+      - 魆妖纪
+      - 鬼途奇行录
+      - 齐神箓
+    sort:
+      - property: 九龙变战力
+        direction: ASC

@@ -1,0 +1,93 @@
+summaries:
+  new summary: ""
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "角色库"
+    order:
+      - file.name
+      - 雕偶师
+    sort: []
+    summaries:
+      武器类型: new summary
+    columnSize:
+      note.雕偶师: 291
+      note.武器: 154
+      note.武器类型: 117
+  - type: table
+    name: 陈文龙
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("陈文龙")
+    order:
+      - file.name
+      - 雕偶师
+    columnSize:
+      file.name: 91
+  - type: table
+    name: 洪有聪
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("洪有聪")
+    order:
+      - file.name
+      - 雕偶师
+  - type: table
+    name: 萧佟兴
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("萧佟兴")
+    order:
+      - file.name
+      - 雕偶师
+    sort: []
+  - type: table
+    name: 洪剑山
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("洪剑山")
+    order:
+      - file.name
+      - 雕偶师
+  - type: table
+    name: 欧建元
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("欧建元")
+    order:
+      - file.name
+      - 雕偶师
+  - type: table
+    name: 洪裕杰
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("洪裕杰")
+    order:
+      - file.name
+      - 雕偶师
+  - type: table
+    name: 黄国信
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("黄国信")
+    order:
+      - file.name
+      - 雕偶师
+  - type: table
+    name: 丘山
+    filters:
+      and:
+        - file.folder == "角色库"
+        - 雕偶师.containsAny("丘山")
+    order:
+      - file.name
+      - 雕偶师

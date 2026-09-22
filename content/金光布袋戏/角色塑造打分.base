@@ -1,0 +1,28 @@
+formulas:
+  总分: 动机+主动性+复杂度+发展+辨识度+关系张力+主题贡献
+  百分制: (总分-7)/28*100
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "角色库"
+        - "!formula.总分.isEmpty()"
+    order:
+      - file.basename
+      - 动机
+      - 复杂度
+      - 主动性
+      - 发展
+      - 辨识度
+      - 主题贡献
+      - 关系张力
+      - formula.总分
+      - formula.百分制
+    sort:
+      - property: formula.总分
+        direction: DESC
+    columnSize:
+      file.basename: 86
+      note.关系张力: 85
+      formula.总分: 91

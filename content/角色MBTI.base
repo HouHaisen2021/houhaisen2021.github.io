@@ -1,9 +1,0 @@
-views:
-  - type: table
-    name: 表格
-    filters:
-      and:
-        - file.folder == "角色库"
-    order:
-      - file.name
-      - MBTI
